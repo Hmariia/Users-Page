@@ -1,0 +1,128 @@
+header{
+  height: 60px;
+  background-color: #588c7e;
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 40px;
+  background-color: #588c7e;
+  margin-top: 10px;
+}
+
+.slides-box {
+  display: flex;
+  justify-items: stretch;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.slides-box > div{
+  min-height: 600px;
+}
+
+.left-slide{
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  padding-right: 0px;
+  background-color: #e6e2d3;
+  flex-direction: column;
+  color: black;
+  justify-content:center;
+}
+
+.right-slide{
+  display: flex;
+  width: 65%;
+  padding: 10px;
+  background-color: #e6e2d3;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+button:hover{
+  border: solid;
+  border-width: 2px;
+  border-color: #4169E1;
+}
+
+.card{
+  margin: 5px;
+  width: 230px;
+  min-height: 300px;
+  border: 5px solid white;
+  background-color: #F5F5F5;
+  border-radius: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: system-ui;
+  font-size: medium;
+  text-align: left;
+}
+
+.card-icon{
+  float: right;
+}
+
+.card.reminder{
+  border-left: 5px solid green;
+}
+
+.add-form{
+  border: 3px solid #4169E1;
+  padding: 10px;
+  width: 85%;
+  align-self: center;
+  justify-content: space-between;
+}
+
+
+.form{
+  font-size: 17px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.label-box{
+  padding: 10px 20px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.form-button, .card-button{
+  background-color: #4169E1; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 7%;
+}
+
+
+.card-image{
+  width: 50%;
+  border: 5px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  align-self:center;
+  margin-top: 0px;
+}
+
+.card-button{
+  margin-top: 20px;
+  align-self: center;
+  width: 100%;
+}
+
+.list-item{
+  margin-bottom: 10px;
+}
