@@ -1,6 +1,7 @@
 import {Card, Button} from 'react-bootstrap'
 import pic3 from '../Images/human1.jpg'
 import { FaTimes } from 'react-icons/fa'
+import UserList from "./UserList"
 
 const UserCard = ({ user, onDelete, onToggle}) => {
   return (

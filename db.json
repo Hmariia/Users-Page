@@ -5,7 +5,7 @@
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
-      "reminder": false,
+      "reminder": true,
       "address": {
         "street": "Kulas Light",
         "suite": "Apt. 556",
@@ -45,14 +45,15 @@
         "name": "Deckow-Crist",
         "catchPhrase": "Proactive didactic contingency",
         "bs": "synergize scalable supply-chains"
-      }
+      },
+      "reminder": true
     },
     {
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
-      "reminder": true,
+      "reminder": false,
       "address": {
         "street": "Douglas Extension",
         "suite": "Suite 847",
@@ -76,7 +77,7 @@
       "name": "Patricia Lebsack",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
-      "reminder": false,
+      "reminder": true,
       "address": {
         "street": "Hoeger Mall",
         "suite": "Apt. 692",
