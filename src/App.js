@@ -1,24 +1,25 @@
-import './index.css'
 import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 import AddUser from './components/AddUser'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Navbox from './components/Navbox'
-import { Container } from 'react-bootstrap'
 import UsersCards from './components/UsersCards'
 import UsersList from './components/UsersList'
-import { BrowserRouter as Router} from 'react-router-dom'
+import UserDetails from './components/UserDetails'
+import SelectedUser from './components/SelectedUser'
+import { Container } from 'react-bootstrap'
 
 const App = () => {
-  const [showUsers, setShowUsers] = useState(false)
   const [users, setUsers] = useState([])
-  const [showAddUser, setShowAddUser] = useState(false)
 
-  useEffect(() => {
+  useEffect (() => {
     const getUsers = async () => {
       const usersFromServer = await fetchUsers()
       setUsers(usersFromServer)
     }
+
     getUsers()
   }, [])
 
@@ -31,13 +32,20 @@ const App = () => {
     return data
   }
 
+  
   //Fetch User
   const fetchUser = async (id) => {
     const res = await fetch(`http://localhost:5000/users/${id}`)
     const data = await res.json()
 
-    console.log(data)
     return data
+  }
+
+  const deleteUser = async (id) => {
+    const res = await fetch(`http://localhost:5000/users/${id}`, {
+      method: 'DELETE',
+    })
+    setUsers(users.filter((user) => user.id !== id))
   }
 
   const addUser = async(user) => {
@@ -51,13 +59,7 @@ const App = () => {
 
     const data = await res.json()
     setUsers([...users, data])
-  }
-
-  const deleteUser = async (id) => {
-    const res = await fetch(`http://localhost:5000/users/${id}`, {
-      method: 'DELETE',
-    })
-    setUsers(users.filter((user) => user.id !== id))
+    window.location.reload();
   }
 
   const toggleReminder = async (id) => {
@@ -70,7 +72,7 @@ const App = () => {
         'Content-type': 'application/json',
       },
       body: JSON.stringify(updUser),
-    })
+  })
 
     const data = await res.json()
 
@@ -81,33 +83,30 @@ const App = () => {
     )
   }
 
-  const selectUser = async (id) => {
-    alert(`hello hello you selected ${id} user`)
-    setUsers(
-      users.filter((user) => user.id === id)
-    )
-    setShowUsers(!showUsers)
-  }
-
   return (
     <Router>
-      <Container fluid>
-        <Header />
-        <Navbox
-          onAdd={() => setShowAddUser(!showAddUser)} 
-          onShow={() => setShowUsers(!showUsers)} />
-        <div className="slides-box">
-            <div className="left-slide">
-              { showAddUser && <AddUser onAdd={addUser} />}
-              <UsersList users={users} onSelect={selectUser}/>
+      <Header />
+      <Navbox/>
+      <Switch>
+        <Route path="/users/details/:userId" component={UserDetails}/>
+        <Container fluid>
+          <div className="slides-box">
+            <div  className="left-slide">
+              <UsersList users={users} />
             </div>
             <div className="right-slide">
-              { showUsers && <UsersCards users={users} onDelete={deleteUser} 
-              onToggle={toggleReminder} />}
+              <Route path="/add-user"><AddUser onAdd={addUser} /></Route>
+              <Route path="/selected-user/:userId">
+                <SelectedUser onDelete={deleteUser} onToggle={toggleReminder}/>
+              </Route>
+              <Route path="/users">
+                <UsersCards users={users} onDelete={deleteUser} onToggle={toggleReminder} />
+              </Route>
             </div>
-        </div>
-        <Footer />
-      </Container>
+          </div>
+        </Container> 
+      </Switch>
+      <Footer />
     </Router>
   )
 }

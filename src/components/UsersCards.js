@@ -1,5 +1,4 @@
 import UserCard from "./UserCard"
-import UserList from "./UserList"
 
 const UsersCards = ({users, onDelete, onToggle}) => {
   return (

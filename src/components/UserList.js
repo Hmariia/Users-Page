@@ -1,12 +1,16 @@
 import { ListGroup } from "react-bootstrap"
+import { useHistory } from 'react-router-dom'
 
-const UserList = ({ user, onSelect}) => {
+const UserList = ({ user }) => {
+  const history = useHistory()
+  const selectedUser = () => {
+    history.push("/selected-user/"+ user.id)
+    window.location.reload()
+  }
   return (
-    <ListGroup>
-        <ListGroup.Item className="list-item" onClick={() => onSelect(user.id)} action variant="primary">
-          { user.name }
-        </ListGroup.Item>
-    </ListGroup>
+      <ListGroup.Item className="item-list" onClick={selectedUser} action variant="primary">
+        { user.name }
+      </ListGroup.Item>
   )
 }
 

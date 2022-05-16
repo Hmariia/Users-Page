@@ -1,43 +1,40 @@
 header{
   height: 60px;
-  background-color: #588c7e;
+  background-color: #336B87;
   margin-bottom: 10px;
 }
 
 footer{
   height: 40px;
-  background-color: #588c7e;
+  background-color: #336B87;
   margin-top: 10px;
 }
 
-.slides-box {
+.slides-box, .details-box {
   display: flex;
   justify-items: stretch;
   align-items: stretch;
   margin-top: 10px;
+  min-height: 450px;
 }
 
-.slides-box > div{
-  min-height: 600px;
-}
-
-.left-slide{
+.left-slide, .left-box{
   margin-right: 10px;
   display: flex;
-  justify-content: space-around;
-  width: 35%;
-  padding-right: 0px;
-  background-color: #e6e2d3;
+  justify-content:flex-start ;
+  width: 25%;
+  padding: 10px;
+  background-color: #F5F5F5;
   flex-direction: column;
   color: black;
-  justify-content:center;
 }
 
-.right-slide{
+.right-slide, .middle-box{
+  margin-right: 10px;
   display: flex;
-  width: 65%;
+  width: 75%;
   padding: 10px;
-  background-color: #e6e2d3;
+  background-color: #F5F5F5;
   flex-wrap: wrap;
   justify-content:space-around;
 }
@@ -50,7 +47,7 @@ button:hover{
 
 .card{
   margin: 5px;
-  width: 230px;
+  min-width: 230px;
   min-height: 300px;
   max-height: 400px;
   border: 5px solid white;
@@ -74,11 +71,10 @@ button:hover{
 }
 
 .add-form{
-  border: 3px solid #4169E1;
+  border: 3px solid #336B87;
   padding: 10px;
   width: 85%;
-  align-self: center;
-  justify-content: space-between;
+  align-self: top;
 }
 
 
@@ -105,7 +101,6 @@ button:hover{
   display: inline-block;
   font-size: 16px;
   margin-top: 10px;
-  border-radius: 7%;
 }
 
 
@@ -124,6 +119,79 @@ button:hover{
   width: 100%;
 }
 
-.list-item{
+.item-list{
   margin-bottom: 10px;
+}
+
+.left-box{
+  background: linear-gradient(to bottom,
+     #428baf 40%, #F5F5F5 40% 100%);
+  
+}
+
+.picture {
+  margin-top: 25%;
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 50%;
+  border: solid 5px white;
+  align-self: center;
+}
+
+.side-nav{
+  border: solid 1px black;
+}
+
+.flex-column{
+  width: 90%;
+  align-self: center;
+}
+
+.left-box > h5 {
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+.left-box > h6 {
+  text-align: center;
+  color: rgb(84, 83, 83);
+  font-family: Georgia, serif;
+}
+
+.side-nav, .nav-button{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nav-button{
+  margin: 30px 10px 10px 10px;
+}
+
+.line{
+  border-bottom: solid 1px grey;
+  margin-bottom: 20px;
+}
+
+.left-box{
+  width: 22%;
+}
+
+.middle-box{
+  width: 60%;
+}
+
+.sidebar{
+  padding-top: 10px;
+  width: 18%;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+.sidebar > button{
+  margin-bottom: 10px;
+  background-color: #F5F5F5 !important;
+  border-radius: 0 !important;
+  border-top: solid 1px #336B87;
+  border-bottom: solid 1px #336B87;
+  color: black !important;
 }

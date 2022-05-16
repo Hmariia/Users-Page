@@ -1,11 +1,12 @@
 import UserList from "./UserList"
+import { ListGroup } from "react-bootstrap"
 
-const UsersList = ({ users, onSelect }) => {
+const UsersList = ({ users }) => {
   return (
-    <>
-        {users.map( (user, index) => 
-        (<UserList key={index} user={user} onSelect={onSelect} />) )}
-    </>
+    <ListGroup className="group-list">
+       {users.map( (user, index) => 
+        (<UserList key={index} user={user} />) )}
+    </ListGroup> 
   )
 }
 

@@ -25,20 +25,20 @@ const AddUser = ({onAdd}) => {
   return (
     <Form className='add-form' onSubmit={onSubmit} >
         <Form.Group className='form'>
-            <Form.Label>Name</Form.Label> <br />
+            <Form.Label>Name</Form.Label>
             <Form.Control className='label-box' type="name" placeholder="Enter name" 
-            value={name} onChange={(e) => setName(e.target.value)} /> <br />
+            value={name} onChange={(e) => setName(e.target.value)} />
             <Form.Text className="text-muted">Please enter full name</Form.Text>
         </Form.Group>
         <br />
         <Form.Group className='form'>
-            <Form.Label>User name</Form.Label> <br />
+            <Form.Label>User name</Form.Label>
             <Form.Control className='label-box' type="user-name" placeholder="User-name" 
             value={username} onChange={(e) => setUsername(e.target.value)} />
         </Form.Group> 
         <br />
         <Form.Group className='form'>
-            <Form.Label>Email</Form.Label> <br />
+            <Form.Label>Email</Form.Label>
             <Form.Control className='label-box' type="email" placeholder="Enter email" 
             value={email} onChange={(e) => setEmail(e.target.value)}/> <br />
             <Form.Text className="text-muted">Please enter email address</Form.Text>

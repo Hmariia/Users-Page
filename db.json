@@ -5,11 +5,120 @@
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
+      "interests": "I have many hobbies and interests that I enjoy when I am not at work. I volunteer to judge and lead teams for the mathlete competitions at the local high school, and I also offer career and college training to seniors who are about to graduate. In addition to these activities, I volunteer at the soup kitchen, and I invest as much time as I can in my physical fitness. I accomplish the latter through running, jogging, swimming, and doing yoga throughout the week.",
+      "education": {
+        "degree": [
+          "Bachelor of Business Administration in Accounting",
+          "Certified Public Accountant"
+        ],
+        "date": [
+          "2012-2016",
+          "2001"
+        ],
+        "place": [
+          "University School of Accounting",
+          "University School of Accounting"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Certified Public Accountant",
+          "Accountant Assistant",
+          "Accounting Intern"
+        ],
+        "date": [
+          "March 2015-Present",
+          "June 2014-March 2015",
+          "April 2012-June 2014"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Worked with clients and CFOs to resolve problems involving accounting errors, financial trouble, or account management."
+          },
+          {
+            "key": 2,
+            "data": "Employed assistants and provided directives to maintain functions of the department and ensure tasks such as payroll were managed appropriately."
+          },
+          {
+            "key": 3,
+            "data": "Developed and presented financial reports analyzing clients’ current accounting needs and proposing viable solutions."
+          },
+          {
+            "key": 4,
+            "data": "Worked under the certified public accountant head of the department to handle tasks such as payroll and accounts receivable."
+          },
+          {
+            "key": 5,
+            "data": "Maintained constant contact with clients in order to ensure that their needs were met and their accounts were in satisfactory standing."
+          },
+          {
+            "key": 6,
+            "data": "Completed accounting tasks such as contributing to financial reports, calculating payroll, and entering financial data."
+          },
+          {
+            "key": 7,
+            "data": "Worked at company to develop the basic skills and knowledge necessary to pursuing a career in accounting."
+          },
+          {
+            "key": 8,
+            "data": "Served accountants and accounting assistants by observing their work, contributing, and offering feedback on the processes employed."
+          },
+          {
+            "key": 9,
+            "data": "Proposed organizational improvements to the company’s internship program and collaborated with department to create more effective feedback opportunities."
+          }
+        ]
+      },
+      "summary": "Proficient in accounting across multiple contexts and environments. Prior experience ranges from work setting in company of 25 to working amongst a company of 300. Adept at all functions of accounting, including balancing sheets, processing payments, managing accounts payable, and providing executive administrative support. Also proficient in QuickBooks, Peachtree, Accounting CS, and many other accounting software platforms and applications that may be used. Dedicated to providing exemplary work and supporting the overall mission of the department and company.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "lalala Hello "
+        },
+        {
+          "key": 2,
+          "data": "Data Trending Knowledge hhhhh"
+        },
+        {
+          "key": 3,
+          "data": "SAP Expertise"
+        },
+        {
+          "key": 4,
+          "data": "Invoice Coding Familiarity"
+        },
+        {
+          "key": 5,
+          "data": "ERP (Enterprise Resource Planning) Software"
+        },
+        {
+          "key": 6,
+          "data": "Calculating Liabilities"
+        },
+        {
+          "key": 7,
+          "data": "Tax Accounting Specialization"
+        },
+        {
+          "key": 8,
+          "data": "Managerial Techniques"
+        },
+        {
+          "key": 9,
+          "data": "Corporate Tax Planning Knowledge"
+        },
+        {
+          "key": 10,
+          "data": "Bookkeeping Skills happy happy"
+        }
+      ],
       "reminder": true,
       "address": {
         "street": "Kulas Light",
         "suite": "Apt. 556",
         "city": "Gwenborough",
+        "country": "Spain",
         "zipcode": "92998-3874",
         "geo": {
           "lat": "-37.3159",
@@ -29,10 +138,99 @@
       "name": "Ervin Howell",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
+      "interests": "There are many hobbies and activities that I enjoy taking part in. When I am not at work, I l can be found singing and performing in my local theater troupe. We perform musicals, dramas, and vignettes produced by and comprised of members of the local community. I also enjoy volunteering my time at the animal shelter and caring for pets that have not found a home yet. I addition to providing care, I manage the shelter’s placement efforts in order to recruit potential clients into adopting pets. This, as well as my work in the theater, offers a highly fulfilling balance to the work I do on the job.",
+      "education": {
+        "degree": [
+          "Master of Business Administration",
+          "Bachelor of Business Administration2013 "
+        ],
+        "date": [
+          "2014",
+          "2013"
+        ],
+        "place": [
+          "Financial Institute of California",
+          "Financial Institute of California"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Audit Assistant",
+          "Financial Analyst",
+          "Financial Consultant"
+        ],
+        "date": [
+          "January 2016-Present",
+          "May 2015-January 2016",
+          "April 2013-March 2014"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Communicate with internal and external contacts in order to ensure that all functions of audit go smoothly."
+          },
+          {
+            "key": 2,
+            "data": "Proof all claims that are made by verifying totals, calculations and general accounts submitted throughout audit."
+          },
+          {
+            "key": 3,
+            "data": "Create and interpret reports detailing the progress and findings of audits in order to share with managerial staff."
+          },
+          {
+            "key": 4,
+            "data": "Collected and interpreted data relating to the finances of the company and the projected financial outlook."
+          },
+          {
+            "key": 5,
+            "data": "Determined strategies most effective for improving financial status of company and finding solutions to problems."
+          },
+          {
+            "key": 6,
+            "data": "Created training and educational resources for fellow staff to better understand financial functions of the company."
+          },
+          {
+            "key": 7,
+            "data": "Partnered with managerial staff to provide advice and targeted insight into the finances of the company."
+          },
+          {
+            "key": 8,
+            "data": "Developed strategies for growing profits and minimizing issues such as fraud, laundering, and auditing."
+          },
+          {
+            "key": 9,
+            "data": "Gathered and interpreted data relating to the financial status of the company in order to share with managers."
+          }
+        ]
+      },
+      "summary": "Professional auditing assistant with extensive experience in handling administrative duties and executive responsibilities associated with both internal and external corporate auditing. Skilled in partnering with authorities and managers to identify items of concern and find innovative solutions to such problems. Also skilled in extracting, compiling, and interpreting data for purposes of auditing. Prior work with companies contributed to audits that revealed 20 percent fewer mistakes than had been found in prior years.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Excellent analytical skillshello worlds hello worlds"
+        },
+        {
+          "key": 2,
+          "data": "Innovative problem solving abilities"
+        },
+        {
+          "key": 3,
+          "data": "Adept at multi-tasking"
+        },
+        {
+          "key": 4,
+          "data": "Optimal written and spoken communication skills"
+        },
+        {
+          "key": 5,
+          "data": "Superior dependability"
+        }
+      ],
       "address": {
         "street": "Victor Plains",
         "suite": "Suite 879",
         "city": "Wisokyburgh",
+        "country": "Finland",
         "zipcode": "90566-7771",
         "geo": {
           "lat": "-43.9509",
@@ -53,11 +251,100 @@
       "name": "Clementine Bauch",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
+      "interests": "I am dedicated to a healthy lifestyle and participate in many different sports and activities in my spare time. During the summer, I am often on the road or a mountain trail with my bike. Sometimes, I will do all-day hikes on the trail as well. When it starts to get cold during the winter, I spend a lot of time hitting the slopes on the toughest hills, either skiing or snowboarding.",
+      "education": {
+        "degree": [
+          "Certified Public Accountant License",
+          "Bachelor of Science in Accounting"
+        ],
+        "date": [
+          "2006",
+          "2007"
+        ],
+        "place": [
+          "Vermont State Office of Professional Regulation",
+          "Middlebury College"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Accountant",
+          "Accountant",
+          "Accountant"
+        ],
+        "date": [
+          "September 2015 to present",
+          "July 2010 to September 2015",
+          "August 2006 to July 2010"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Review company financial records, reports, and other information to check for accuracy and ensure details align with company goals and procedures."
+          },
+          {
+            "key": 2,
+            "data": "Discuss the status of the company’s current financial standing with upper management and the owners of the organization."
+          },
+          {
+            "key": 3,
+            "data": "Designed and used a computer record-keeping program that has helped reduce wasteful spending by 19%."
+          },
+          {
+            "key": 4,
+            "data": "Audited financial records from previous years and the current fiscal year in order to assess the company’s record-keeping techniques."
+          },
+          {
+            "key": 5,
+            "data": "Calculated the organization’s tax responsibility each pay period in the form of payroll taxes, and completed corporate tax returns each year."
+          },
+          {
+            "key": 6,
+            "data": "Maximized the company’s use of tax incentives and credits to help save the organization $15,000 in one calendar year."
+          },
+          {
+            "key": 7,
+            "data": "Managed a new system of record keeping for employees to input all spending and record all company payments and invoices."
+          },
+          {
+            "key": 8,
+            "data": "Assessed the organization’s yearly budget and helped maintain the focus on quarterly budget goals with spending and cost reports."
+          },
+          {
+            "key": 9,
+            "data": "Recommended several money-saving steps be taken during the first few months of my employment, which helped lower the cost of operations by 12%."
+          }
+        ]
+      },
+      "summary": "Accomplished Certified Public Accountant with 11 years of experience in accounting and finance. Experienced in bookkeeping, tax calculating, and reporting for business clients and organizations. Capable professional with expertise in many of the most common accounting software programs. Strong work ethic and commitment to integrity and accurate record keeping. Eager to join a team and help improve an organization’s financial focus.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Proficient in operating accounting computer software such as Intuit QuickBooks, Sage 50"
+        },
+        {
+          "key": 2,
+          "data": "Accounting, Fund Accounting Software, Tax Software, and others."
+        },
+        {
+          "key": 3,
+          "data": "Exceptional knowledge of mathematical concepts, accounting and finance topics, tax code, and banking principles."
+        },
+        {
+          "key": 4,
+          "data": "Top attention to detail and focus on making sure records and information systems are kept accurate and true."
+        },
+        {
+          "key": 5,
+          "data": "Strong reasoning skills and analytical abilities to help determine best practices when it comes to the finances of each organization I work with."
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Douglas Extension",
         "suite": "Suite 847",
         "city": "McKenziehaven",
+        "country": "Germany",
         "zipcode": "59590-4157",
         "geo": {
           "lat": "-68.6102",
@@ -77,11 +364,100 @@
       "name": "Patricia Lebsack",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
+      "interests": "I am a member of the local town’s theater troupe and participate in several musical and dramatic productions each year. I especially enjoy musical theater and have been performing in plays and musicals since I was a small child. I have a talent for tap dancing and singing and have been a featured player in the spring and fall productions of the community playhouse for several years.",
+      "education": {
+        "degree": [
+          "Internship in Administrative Records Office",
+          "Bachelor of Science in Business Administration"
+        ],
+        "date": [
+          "2009",
+          "2009"
+        ],
+        "place": [
+          "Towson University",
+          "Towson University"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Office Manager",
+          "Administrative Officer",
+          "Administrative Officer"
+        ],
+        "date": [
+          "July 2015 to present",
+          "March 2012 to July 2015",
+          "April 2010 to March 2012"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Manage a staff of 15 customer service representatives in a call center administrative office for a major airline."
+          },
+          {
+            "key": 2,
+            "data": "Review employee performance standards with each individual staff member periodically and help set goals to improve outcomes in customer service interactions."
+          },
+          {
+            "key": 3,
+            "data": "Resolve customer concerns and answer questions when asked from other staff members related to customer complaints or issues."
+          },
+          {
+            "key": 4,
+            "data": "Scheduled a staff of 18 team members and assigned specific responsibilities for each employee to cover all administrative duties of the front office of a car dealership."
+          },
+          {
+            "key": 5,
+            "data": "Implemented a successful updated training program for new office employees to help improve staff retention rate to 89 percent."
+          },
+          {
+            "key": 6,
+            "data": "Guided employees when faced with a difficult challenge in their work or when working with a team member and experiencing a conflict."
+          },
+          {
+            "key": 7,
+            "data": "Created team member motivational contests to push and improve the office staff’s sales performance by $300,000."
+          },
+          {
+            "key": 8,
+            "data": "Counseled managers and made recommendations regarding staff performance, hiring, and retraining of employees throughout the year."
+          },
+          {
+            "key": 9,
+            "data": "Developed new employee job procedures and strategies to eliminate excessive break time and reduce misunderstandings."
+          }
+        ]
+      },
+      "summary": "Highly efficient and diligent administrative office professional with seven years of experience in management. Capable leader with excellent skills in delegating responsibilities to others and supervising and evaluating for effective task completion. Enthusiasm for delivering excellent service to customers and other visitors in the office setting. Commitment to upholding company policies and procedures when working with staff members and motivating team. Strong organizational skills and excellent attention to detail when dealing with paperwork.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Strong skills in operating computer software required for business applications, such as Microsoft Word, Excel, Dynamics, PeopleSoft, SAP, and more."
+        },
+        {
+          "key": 2,
+          "data": "Proven record of results when working as a supervisor for a team of staff members, resulting in better productivity and improved morale."
+        },
+        {
+          "key": 3,
+          "data": "Talented in dealing with multiple assignments at once and an ability to meet deadlines and complete accurate work at all times."
+        },
+        {
+          "key": 4,
+          "data": "Exceptional ability to deliver outstanding customer service and diffuse customer complaints or problems."
+        },
+        {
+          "key": 5,
+          "data": "Highly capable oral and written communicator when discussing issues with staff members or delivering correspondence to individuals in writing."
+        }
+      ],
       "reminder": true,
       "address": {
         "street": "Hoeger Mall",
         "suite": "Apt. 692",
         "city": "South Elvis",
+        "country": "USA",
         "zipcode": "53919-4257",
         "geo": {
           "lat": "29.4572",
@@ -101,11 +477,100 @@
       "name": "Chelsey Dietrich",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
+      "interests": "I enjoy furthering my education by taking courses that interest me as well as allow me to gain more knowledge and skills as a CEO. In my spare time, I play the piano, hike with my dog, and enjoy cooking classes.",
+      "education": {
+        "degree": [
+          "Master of Business Administration",
+          "Bachelor of Business Administration"
+        ],
+        "date": [
+          "2003",
+          "1998"
+        ],
+        "place": [
+          "Stanford University",
+          "Stanford University"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Chief Executive Officer",
+          "Vice President",
+          "Chief Executive Officer"
+        ],
+        "date": [
+          "June 2015 to Present",
+          "March 2008 to June 2015",
+          "October 2004 to March 2008"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Work directly with appointed department heads and managers to delegate responsibilities and ensure that all aspects of the company are running efficiently."
+          },
+          {
+            "key": 2,
+            "data": "Negotiate and approve contracts with vendors and suppliers, federal and state agencies, and other relevant organizations in order for business to operate efficiently on a daily basis."
+          },
+          {
+            "key": 3,
+            "data": "Oversee the conduction of market research studies to determine what customers want from the company, and then create and implement plans to provide services and products based on research findings."
+          },
+          {
+            "key": 4,
+            "data": "Discussed issues, resolved problems, and coordinated business activities with board members, staff members, and other company officials."
+          },
+          {
+            "key": 5,
+            "data": "Oversaw programs to select new business sites, purchase the appropriate materials, and hire the appropriate contractors to build new locations for expansion."
+          },
+          {
+            "key": 6,
+            "data": "Developed new methods of tracking expenses, controlling the company budget, and finding new ways to save money while still delivering excellent service."
+          },
+          {
+            "key": 7,
+            "data": "Represented the organization at city and state events and meetings to ensure the public knew the organization was involved in the community and putting their best interests first."
+          },
+          {
+            "key": 8,
+            "data": "Established responsibilities for each department and assisted in creating guidelines for following through on said responsibilities."
+          },
+          {
+            "key": 9,
+            "data": "Created and implemented policies and objectives to ensure continuing operation with increased productivity and maximized return on investments."
+          }
+        ]
+      },
+      "summary": "Qualified chief executive with experience in overseeing the daily activities of small businesses and large corporations alike. Excellent communicator who makes every person feel as if he or she is the only one in the room. Educated in economics and accounting, including current financial markets. Have an excellent command of proper English. Strong ability to solve complex company problems using excellent judgment and decision-making skills. Believe in receiving ongoing education and running a customer service-oriented company and have more than 10 years of experience in relevant positions.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Excellent personnel and human resources skills, including knowledge of procedures for providing superior customer service and a productive and comfortable work environment for employees."
+        },
+        {
+          "key": 2,
+          "data": "Qualified communicator with proficiency in written and oral communication skills, including the ability to engage an audience and convey information in a public speaking forum."
+        },
+        {
+          "key": 3,
+          "data": "Social perception skills that allow for understanding others’ non-verbal reactions and adjusting communication accordingly."
+        },
+        {
+          "key": 4,
+          "data": "Highly proficient negotiation and persuasion skills make it easy to come to agreements and persuade people, organizations, and vendors to meet the company in the middle."
+        },
+        {
+          "key": 5,
+          "data": "Ability to identify complex problems and use critical thinking skills to implement plans for overcoming those problems for the company’s benefit."
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Skiles Walks",
         "suite": "Suite 351",
         "city": "Roscoeview",
+        "country": "Canada",
         "zipcode": "33263",
         "geo": {
           "lat": "-31.8129",
@@ -125,11 +590,97 @@
       "name": "Mrs. Dennis Schulist",
       "username": "Leopoldo_Corkery",
       "email": "Karley_Dach@jasper.info",
+      "interests": "Attend quarterly business management seminars at Convention Center in Washington. Periodic contributor to three financial advice blogs. Compete in doubles tennis competitions through local YMCA. Lifelong pianist and violinist.",
+      "education": {
+        "degree": [
+          "Bachelor of Arts in English"
+        ],
+        "date": [
+          "2007"
+        ],
+        "place": [
+          "University of Delaware"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Front Office Executive",
+          "Office Manager",
+          "Administrative Assistant"
+        ],
+        "date": [
+          "2013-Present",
+          "2008-2013",
+          "2006-2008"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Collaborate with Fortune 500 executive to accomplish business objectives."
+          },
+          {
+            "key": 2,
+            "data": "Prepare personnel reports on potential and newly acquired clients to inform executive of relevant data and history."
+          },
+          {
+            "key": 3,
+            "data": "Research financial trends, relay findings to executive, and create presentations for executive to deliver to clients and colleagues."
+          },
+          {
+            "key": 4,
+            "data": "Managed human resources department’s general email account, communicating professionally with an average of 1000 individuals per week"
+          },
+          {
+            "key": 5,
+            "data": "Transformed office purchasing and inventory system. Developed new ordering schedule, found better suppliers, and facilitated implementation of changes. Reduced office expenditures by 15 percent."
+          },
+          {
+            "key": 6,
+            "data": "Spearheaded efficiency improvement venture, ultimately cutting visitor wait times from 15 to 5 minutes on average. Used Microsoft Project to distribute memos and share files with administrative staff."
+          },
+          {
+            "key": 7,
+            "data": "Distributed incoming phone calls, welcomed office visitors, and showed them to their appointments."
+          },
+          {
+            "key": 8,
+            "data": "Reorganized overcrowded filing system. Eliminated unnecessary materials and incorporated digital record-keeping into new system."
+          },
+          {
+            "key": 9,
+            "data": "Led office recycling campaign and arranged recycling services for every business in office park."
+          }
+        ]
+      },
+      "summary": "Self-possessed front office executive seeking to use composed personality, outstanding efficiency, and methodical decision-making ability to help business executives achieve their professional goals. Thorough researcher with a knack for preparing concise yet comprehensive reports and presentations on personnel, business models, and financial trends. Particularly gifted at eliminating budgetary and organizational waste. Use all available forms of technology, including management and financial software, to ensure successful completion of projects.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Keep offices operating efficiently at all times by maintaining superior standard of organization."
+        },
+        {
+          "key": 2,
+          "data": "Strong speaker and writer able to engage in clear communication with executives, colleagues, and customers."
+        },
+        {
+          "key": 3,
+          "data": "Shrewd leader capable of recognizing strengths of lower-level staff and targeting training to heighten these strengths."
+        },
+        {
+          "key": 4,
+          "data": "Extensive experience using QuickBooks to manage both office administration and business executive expenses."
+        },
+        {
+          "key": 5,
+          "data": "Attentive listener skilled at remembering instructions and tracking numerous details."
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Norberto Crossing",
         "suite": "Apt. 950",
         "city": "South Christy",
+        "country": "Sweden",
         "zipcode": "23505-1337",
         "geo": {
           "lat": "-71.4197",
@@ -149,11 +700,96 @@
       "name": "Kurtis Weissnat",
       "username": "Elwyn.Skiles",
       "email": "Telly.Hoeger@billy.biz",
+      "interests": "Former president of civic organization charged with planning community events. Volunteer usher at local theater during philharmonic performances. Avid mountain biker and hiker.",
+      "education": {
+        "degree": [
+          "Masters of Business Administration",
+          "Bachelors of Science in Psychology"
+        ],
+        "date": [
+          "2003",
+          "2002"
+        ],
+        "place": [
+          "University of Washington Foster School of Business",
+          "The Evergreen State College"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Human Resource Regional Manager",
+          "Compliance Coordinator",
+          "Human Resource Manager"
+        ],
+        "date": [
+          "March 2009 to Current",
+          "June 2005 to March 2009",
+          "July 2000 to June 2005"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Directed the human resource departments for several satellite offices across the Pacific Northwest."
+          },
+          {
+            "key": 2,
+            "data": "Coordinated large-scale employee training and reimbursement policy changes in 2013 that contributed to a 60 percent increase in employee retention."
+          },
+          {
+            "key": 3,
+            "data": "Developed training programs in conjunction with several managers across all departments within region on an annual basis to acclimate employees to regulatory updates."
+          },
+          {
+            "key": 4,
+            "data": "Led company efforts to stay in compliance with both industry standards as well as regulatory guidelines."
+          },
+          {
+            "key": 5,
+            "data": "Attended regional and national seminars where new compliance measures were presented by policymakers as well as industry leaders."
+          },
+          {
+            "key": 6,
+            "data": "Worked with company executives to help update company policies to bring them in line with new standards."
+          },
+          {
+            "key": 7,
+            "data": "Directed the development of training content and schedules in order to educate employees on policy changes across corporation."
+          },
+          {
+            "key": 8,
+            "data": "Oversaw the screening, interviewing, and hiring process at corporation’s administrative office."
+          },
+          {
+            "key": 9,
+            "data": "Supervised the implementation of new hiring lead database program in 2002 that improved application screening times by 45 percent."
+          }
+        ]
+      },
+      "summary": "Experienced regional manager looking to take next step into administrative position. Eight years of experience in current role, with 17 years in management altogether. Currently oversee human resource department for a national consumer research company. Extensive experience in personnel management, budgeting, operations analysis, policy making, and hiring. Hands-on leader who is also able to trust subordinates with important tasks when such activities need to be delegated. Have functioned in temporary administrative roles on multiple occasions when executives have been on leave. Comfortable communicating and working with professionals at all levels, from prospective hires to board chairmen.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Excellent leader who has helped improve operational efficiency in every position."
+        },
+        {
+          "key": 2,
+          "data": "Recognized by peers as being good communicator in helping relay messages from executives and policymakers to front-line employees."
+        },
+        {
+          "key": 3,
+          "data": "Strong organizational and analytical skills."
+        },
+        {
+          "key": 4,
+          "data": "Adept at conflict resolution."
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Rex Trail",
         "suite": "Suite 280",
         "city": "Howemouth",
+        "country": "Hungary",
         "zipcode": "58804-1099",
         "geo": {
           "lat": "24.8918",
@@ -173,11 +809,100 @@
       "name": "Nicholas Runolfsdottir V",
       "username": "Maxime_Nienow",
       "email": "Sherwood@rosamond.me",
+      "interests": "I’ve recently started producing and mixing soulful house music and spin at local clubs a few weekends a month. I also teach money management courses at area high schools to teach students how to better manage their money. Participating in a film noir movie club is a new interest of mine I’ve started to explore.",
+      "education": {
+        "degree": [
+          "Bachelor’s of Science in Finance",
+          "Associate in General Studies"
+        ],
+        "date": [
+          "2012",
+          "2008"
+        ],
+        "place": [
+          "Saint City University",
+          "Garner Community College"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Loan Officer-",
+          "Head Bank Teller",
+          "Bank Teller"
+        ],
+        "date": [
+          "July 2013-Present",
+          "March 2009-July 2013",
+          "November 2005-March 2009"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Reach out to individual customers and companies to see if they have need of a loan."
+          },
+          {
+            "key": 2,
+            "data": "Gather loan applicant personal and financial information to start the loan process."
+          },
+          {
+            "key": 3,
+            "data": "Approve all loan applications before passing them on to management for a final decision."
+          },
+          {
+            "key": 4,
+            "data": "Oversaw and managed all teller operations for maximum efficiency and customer satisfaction."
+          },
+          {
+            "key": 5,
+            "data": "Created monthly work schedules and helped train new tellers."
+          },
+          {
+            "key": 6,
+            "data": "Developed new training method for tellers that reduced customer complaints by 7 percent, increased customer satisfaction by 5 percent, and cut down on wait times by three minutes."
+          },
+          {
+            "key": 7,
+            "data": "Counted cash in drawer at the start of shift and again at the end of shift."
+          },
+          {
+            "key": 8,
+            "data": "Prepared savings bonds, traveler’s checks, money orders, and other types of specialized funds."
+          },
+          {
+            "key": 9,
+            "data": "Ensured all transactions were properly recorded in bank’s networked computer system for proper recordkeeping."
+          }
+        ]
+      },
+      "summary": "Dedicated bank teller and loan officer with a solid 12 years of experience in a variety of bank branches and credit unions. Extensive knowledge of the latest banking regulations, rules, and laws in the state of Illinois and Alabama, where I first started my career. Committed to providing customers with top-notch service that exemplifies the bank’s company culture, mission statement, and desire to keep customers banking with us for as long as possible. Remain up to date on the bank’s latest products, such as loans and certificates of deposits, so they can be offered to customers as supplementary services for maximum efficiency and to help them meet their financial goals.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Superior customer-service and interpersonal skills, which allow me to take proper care of customers and answer all their questions to help them get the most out of the bank’s services."
+        },
+        {
+          "key": 2,
+          "data": "Advanced math skills for handling large amounts of cash without making mistakes with deposits, withdrawals, and various other business transactions."
+        },
+        {
+          "key": 3,
+          "data": "Knowledge of the latest accounting and bank teller software and programs."
+        },
+        {
+          "key": 4,
+          "data": "As a loan officer, initiative is necessary to find new clients, gauge their needs, and act as a solid salesperson."
+        },
+        {
+          "key": 5,
+          "data": "Highly detail-oriented to ensure all transactions and records are maintained accurately."
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Ellsworth Summit",
         "suite": "Suite 729",
         "city": "Aliyaview",
+        "country": "Italy",
         "zipcode": "45169",
         "geo": {
           "lat": "-14.3990",
@@ -197,11 +922,100 @@
       "name": "Glenna Reichert",
       "username": "Delphine",
       "email": "Chaim_McDermott@dana.io",
+      "interests": "When I am not at work, I most enjoy exercising my artistic abilities and partaking in painting, crafting, and drawing. These activities allow me to express my creative side, and I often make art depicting beautiful scenery or local attractions that I want to recreate. I hope to continue honing my artistic skills, and to this end, I often take classes whenever I am able. In addition to my creative pursuits, I volunteer at the local nursing home and host art classes for the senior residents to enjoy. This gives me the opportunity to share my love of creativity while also giving back to my community.",
+      "education": {
+        "degree": [
+          "Certified Public Accountant",
+          "Master of Business Administration in Accounting"
+        ],
+        "date": [
+          "2011-Present",
+          "2007"
+        ],
+        "place": [
+          "Vermont State Office of Professional Regulation",
+          "Graduate University of Business in Toronto"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Payroll Specialist",
+          "Certified Public Accountant",
+          "Accounting Assistant"
+        ],
+        "date": [
+          "May 2012-Present",
+          "July 2008-May 2012",
+          "February 2005-July 2008"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Maintain all records of fixed assets and monitor ledgers to ensure the completeness and accuracy of such records."
+          },
+          {
+            "key": 2,
+            "data": "Manage deposits, withdrawals, and balances for all company bank accounts to ensure that all funds are accounted for."
+          },
+          {
+            "key": 3,
+            "data": "Identify items of concern and propose solutions to combat any discrepancies that may be present."
+          },
+          {
+            "key": 4,
+            "data": "Prepared weekly, monthly, and quarterly statements detailing the financial transactions and status of the company."
+          },
+          {
+            "key": 5,
+            "data": "Monitored tax liabilities and diligently identified means to minimize expenses relating to taxes for company and employee funds."
+          },
+          {
+            "key": 6,
+            "data": "Completed all tax returns for the company and for the employees of the company, and answered any questions that personnel had."
+          },
+          {
+            "key": 7,
+            "data": "Partnered with senior accounting staff to conduct daily accounting activities and maintained smooth operation of the department."
+          },
+          {
+            "key": 8,
+            "data": "Fielded questions from internal and external persons regarding paychecks, taxes, invoices, and other aspects of the company’s finances."
+          },
+          {
+            "key": 9,
+            "data": "Handled all paycheck distribution and managed direct deposit for employees throughout the company."
+          }
+        ]
+      },
+      "summary": "Professional payroll accountant with over 10 years of experience in the field. Skilled in payroll processing, problem-solving, and auditing in work environments serving as few as 20 employees or as many as 150+. Highly skilled in all aspects of accounting, including data interpretation, compliance assurance, and ledger balancing. Proficient in all major accounting software platforms and quick learner in adapting to new applications. Ability to work effectively in either a team or individual setting.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Ability to self-direct or receive directives"
+        },
+        {
+          "key": 2,
+          "data": "Excellent at multi-tasking and being organized"
+        },
+        {
+          "key": 3,
+          "data": "Proficient in all major accounting applications"
+        },
+        {
+          "key": 4,
+          "data": "Excellent written and spoken communications kills"
+        },
+        {
+          "key": 5,
+          "data": "Familiar with relevant laws and regulations"
+        }
+      ],
       "reminder": false,
       "address": {
         "street": "Dayna Park",
         "suite": "Suite 449",
         "city": "Bartholomebury",
+        "country": "France",
         "zipcode": "76495-3109",
         "geo": {
           "lat": "24.6463",
@@ -221,11 +1035,100 @@
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
-      "reminder": false,
+      "interests": "I am actively learning and reading about traditional Mexican cooking techniques. I love being an assistant coach for my son’s little league team. As a lifetime fan of music, I am learning to play the piano. Volunteering is a passion of mine, and I currently serve biweekly at the local homeless shelter. I enjoy biking, hiking, and being outdoors. I also enjoy spending time with my dog in my free time.",
+      "education": {
+        "degree": [
+          "Master’s in Business Analysis",
+          "Bachelor of Arts in Business Management"
+        ],
+        "date": [
+          "2005",
+          "2002"
+        ],
+        "place": [
+          "Arizona State University",
+          "Arizona State University"
+        ]
+      },
+      "experience": {
+        "position": [
+          "Management Analyst",
+          "Management Development Specialist",
+          "Human Resources Coordinator"
+        ],
+        "date": [
+          "May 2014 to present",
+          "June 2011 to May 2014",
+          "April 2006 to June 2011"
+        ],
+        "about": [
+          {
+            "key": 1,
+            "data": "Develop efficient strategies for management utilizing research reports and organizational performance information."
+          },
+          {
+            "key": 2,
+            "data": "Manage documents relating to business rules, requirement specifications, wireframes, and functional requirements."
+          },
+          {
+            "key": 3,
+            "data": "Advise a team of six management personnel on improving operational and business techniques."
+          },
+          {
+            "key": 4,
+            "data": "Saved $50,000 in costs by implementing a new data system provider."
+          },
+          {
+            "key": 5,
+            "data": "Developed training materials based on organizational surveys."
+          },
+          {
+            "key": 6,
+            "data": "Evaluated efficiency and effectiveness of practices and policies and made updates for improvement."
+          },
+          {
+            "key": 7,
+            "data": "Coordinated a team of five personnel in hiring activities."
+          },
+          {
+            "key": 8,
+            "data": "Discussed strategies, policies, and practices with management team of seven to enhance operations and job skills."
+          },
+          {
+            "key": 9,
+            "data": "Performed evaluations of policies and prepared operational reports."
+          }
+        ]
+      },
+      "summary": "Skilled business analyst with 11 years of experience in organizational evaluation. Committed to conducting in-depth evaluations, designing procedures, and simplifying work. Expert in assisting management in running an efficient and effective organization. Experience in various business settings with management teams of various backgrounds. Determined leader with demonstrated excellence in encouraging collaboration. Dedicated professional seeking to help businesses improve operations.",
+      "skills": [
+        {
+          "key": 1,
+          "data": "Strong ability to motivate, direct, and develop personnel and identifying those with the best strengths for the job."
+        },
+        {
+          "key": 2,
+          "data": "Effective at evaluating system performance, finding indicators, and discovering how changes in operations will improve results and meet goals."
+        },
+        {
+          "key": 3,
+          "data": "Excellent at assessing the performance of organizations and individuals to take corrective action or make improvements."
+        },
+        {
+          "key": 4,
+          "data": "Solid experience in management analysis and all aspects of business practices giving me deep knowledge about what helps operations improve in efficiency."
+        },
+        {
+          "key": 5,
+          "data": "Extensive knowledge in resource allocation, strategic planning, human resources modeling, production methods, leadership techniques, and coordinating resources."
+        }
+      ],
+      "reminder": true,
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
         "city": "Lebsackbury",
+        "country": "Portugal",
         "zipcode": "31428-2261",
         "geo": {
           "lat": "-38.2386",

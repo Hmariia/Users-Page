@@ -1,11 +1,21 @@
 import { Navbar , Container, NavDropdown, Link, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { useHistory } from 'react-router-dom'
 
-const Navbox = ({ onAdd, onShow }) => {
+const Navbox = () => {
+  const history = useHistory()
+  const addUser = () => {
+    history.push("/add-user")
+    window.location.reload()
+  }
+  const showUser = () => {
+    history.push("/users")
+    window.location.reload()
+  }
   return (
     <Navbar  bg="light" expand="lg">
       <Container fluid>
-      <Navbar.Brand href="#">STUDENTS PAGE</Navbar.Brand>
+      <Navbar.Brand href="#">Users page</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -13,11 +23,10 @@ const Navbox = ({ onAdd, onShow }) => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href='#'>Home</Nav.Link>
-          <Nav.Link href="#" onClick={onShow}>Students</Nav.Link>
-          <NavDropdown title="Students info" id="navbarScrollingDropdown">
-            <NavDropdown.Item onClick={onAdd} >Add Student</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Edit student</NavDropdown.Item>
+          <Nav.Link href='/'>Home</Nav.Link>
+          <Nav.Link href="#" onClick={showUser}>Users</Nav.Link>
+          <NavDropdown title="Users info" id="navbarScrollingDropdown">
+            <NavDropdown.Item onClick={addUser} >Add User</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action5">
               Something else here
@@ -30,11 +39,11 @@ const Navbox = ({ onAdd, onShow }) => {
         <Form className="d-flex">
           <FormControl
             type="search"
-            placeholder="Search student"
+            placeholder="Search user"
             className="me-2"
             aria-label="Search"
           />
-          <Button variant="outline-success"  >Search</Button>
+          <Button variant="outline-success">Search</Button>
         </Form>
       </Navbar.Collapse>
       </Container>
